@@ -1,2 +1,2 @@
-# In-house-script-for-translocation-detection
+# script-for-translocation-detection
 
