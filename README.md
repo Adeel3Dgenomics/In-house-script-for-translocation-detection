@@ -3,11 +3,11 @@
 This script is based on the chromatin interaction clustering to detect inter-chromosomal translocations in cancer Hi-C data up to 1kb resolution. 
 (Developed by Hao Jiang)            
 ### The script requires the following dependencies:
-> 1) &nbsp; python (≥ 2.7) <br />
-> 2) &nbsp; matplotlib (≥ 2.3.1) <br /> 
-> 3) &nbsp; scipy  (≥ 0.5.1)<br />
-> 4) &nbsp; numpy ( ≥ 1.18) <br />
-> 5) &nbsp; java ( ≥ 1.8.0_91) <br /> 
+> 1) &nbsp; python (≥ 2.7) <br/>
+> 2) &nbsp; matplotlib (≥ 2.3.1) <br/> 
+> 3) &nbsp; scipy  (≥ 0.5.1)<br/>
+> 4) &nbsp; numpy ( ≥ 1.18) <br/>
+> 5) &nbsp; java ( ≥ 1.8.0_91) <br/> 
 ## Usage
     java -cp path/in-house_script.jar TLD.TransLocationDetection[-bd <int>] -f <string> [-l <int>] [-minc <int>] [-minl <int>] [-ml <int>] [-o <path>] [-p <string>] [-pv <float>] s <file> [-sort] [-t <int>] <br />   
     
