@@ -25,7 +25,8 @@ This script is based on the chromatin interaction clustering to detect inter-chr
      -t,--thread <int>      threads <br />   
     
 ## Example   
-    java -jar in_house_script.jar -f s2_HJM2HALXX_L2.diff.clean.bedpe -p test_2 -s chr.size -t 1 -l 20000
-    bedpe: Hi-C file 6 column 
+    java -jar in_house_script.jar -f input.bedpe -p test_out -s chr.size -t 1 -l 20000
+    bedpe: Hi-C file 6 column
+   
 -----------------------------------------------------------------------------------------------------------------
 #### &nbsp;CopyRight &#169; 2021 [Guoliang's Lab](http://glab.hzau.edu.cn/index.php), All Rights Reserved
