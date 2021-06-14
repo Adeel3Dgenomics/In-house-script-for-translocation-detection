@@ -11,18 +11,18 @@ This script is based on the chromatin interaction clustering to detect inter-chr
 ## Usage
     java -cp path/in-house_script.jar TLD.TransLocationDetection[-bd <int>] -f <string> [-l <int>] [-minc <int>] [-minl <int>] [-ml <int>] [-o <path>] [-p <string>] [-pv <float>] s <file> [-sort] [-t <int>] <br />   
     
-     -bd <int>              min breakpoint distance, if two breakpoints distance less than this value, it will be merged (defalut 100k) <br />
-     -f,--bedpe <string>    Interaction bedpe file <br />
-     -l <int>               extend length (defalut 10k) <br />
-     -minc <int>            min cluster count (default 70) <br />
-     -minl <int>            min region distance (default 5k) <br />
-     -ml <int>              cluster merge length (defalut 1M) <br />
-     -o,--out <path>        output path <br />
-     -p,--prefix <string>   output prefix <br />
-     -pv <float>            P value (default 5e-5) <br />
-     -s <file>              chr size file  <br />
-     -sort                  if your input file don't sort before, add this argument <br />
-     -t,--thread <int>      threads <br />   
+     -bd <int>              min breakpoint distance, if two breakpoints distance less than this value, it will be merged (defalut 100k) 
+     -f,--bedpe <string>    Interaction bedpe file 
+     -l <int>               extend length (defalut 10k) 
+     -minc <int>            min cluster count (default 70)
+     -minl <int>            min region distance (default 5k) 
+     -ml <int>              cluster merge length (defalut 1M) 
+     -o,--out <path>        output path 
+     -p,--prefix <string>   output prefix 
+     -pv <float>            P value (default 5e-5) 
+     -s <file>              chr size file  
+     -sort                  if your input file don't sort before, add this argument 
+     -t,--thread <int>      threads  
     
 ## Example   
     java -jar in_house_script.jar -f input.bedpe -p test_out -s chr.size -t 1 -l 20000
