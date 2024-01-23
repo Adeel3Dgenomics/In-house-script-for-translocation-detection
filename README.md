@@ -1,7 +1,8 @@
 ## script-for-translocation-detection
 ## Introduction
 This script is based on the chromatin interaction clustering to detect inter-chromosomal translocations in cancer Hi-C data up to 1kb resolution. 
-(co-developer Hao Jiang)            
+(co-developer Hao Jiang)
+For complete information please read (https://www.frontiersin.org/articles/10.3389/fcell.2021.706375/full) 
 ### The script requires the following dependencies:
 > 1) &nbsp; python (≥ 2.7) <br/>
 > 2) &nbsp; matplotlib (≥ 2.3.1) <br/> 
