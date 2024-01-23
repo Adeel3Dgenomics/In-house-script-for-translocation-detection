@@ -10,7 +10,7 @@ For complete information please read (https://www.frontiersin.org/articles/10.33
 > 4) &nbsp; numpy ( ≥ 1.18) <br/>
 > 5) &nbsp; java ( ≥ 1.8.0_91) <br/> 
 ## Usage
-    java in-house_script.jar TLD.TransLocationDetection[-bd <int>] -f <string> [-l <int>] [-minc <int>] [-minl <int>] [-ml <int>] [-o <path>] [-p <string>] [-pv <float>] s <file> [-sort] [-t <int>] 
+    java in-house_script.jar [-bd <int>] -f <string> [-l <int>] [-minc <int>] [-minl <int>] [-ml <int>] [-o <path>] [-p <string>] [-pv <float>] s <file> [-sort] [-t <int>] 
     
      -bd <int>              min breakpoint distance, if two breakpoints distance less than this value, it will be merged (defalut 100k) 
      -f,--bedpe <string>    Interaction bedpe file 
