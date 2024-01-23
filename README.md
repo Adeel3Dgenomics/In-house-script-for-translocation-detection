@@ -10,20 +10,20 @@ For complete information please read (https://www.frontiersin.org/articles/10.33
 > 4) &nbsp; numpy ( ≥ 1.18) <br/>
 > 5) &nbsp; java ( ≥ 1.8.0_91) <br/> 
 ## Usage
-    java in-house_script.jar [-bd <int>] -f <string> [-l <int>] [-minc <int>] [-minl <int>] [-ml <int>] [-o <path>] [-p <string>] [-pv <float>] s <file> [-sort] [-t <int>] 
+    java in-house_script.jar -bd  -f -l -minc  -minl -ml  -o  -p  -pv  s -sort -t 
     
-     -bd <int>              min breakpoint distance, if two breakpoints distance less than this value, it will be merged (defalut 100k) 
-     -f,--bedpe <string>    Interaction bedpe file 
-     -l <int>               extend length (defalut 10k) 
-     -minc <int>            min cluster count (default 70)
-     -minl <int>            min region distance (default 5k) 
-     -ml <int>              cluster merge length (defalut 1M) 
-     -o,--out <path>        output path 
-     -p,--prefix <string>   output prefix 
-     -pv <float>            P value (default 5e-5) 
-     -s <file>              chr size file  
-     -sort                  if your input file don't sort before, add this argument 
-     -t,--thread <int>      threads  
+     -bd           min breakpoint distance, if two breakpoints distance less than this value, it will be merged (defalut 100k) 
+     -f,--bedpe    Interaction bedpe file 
+     -l            extend length (defalut 10k) 
+     -minc         min cluster count (default 70)
+     -minl         min region distance (default 5k) 
+     -ml           cluster merge length (defalut 1M) 
+     -o,--out      output path 
+     -p,--prefix   output prefix 
+     -pv           P-value (default 5e-5) 
+     -s            chr size file  
+     -sort         if your input file don't sort before, add this argument 
+     -t,--thread   threads  
     
 ## Example   
     java -jar in_house_script.jar -f input.bedpe -p test_out -s chr.size -t 1 -l 20000
