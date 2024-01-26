@@ -1,4 +1,4 @@
-## Translocation-detection
+## Translocation-detection using Hi-C 
 ## Introduction
 This script is based on the chromatin interaction clustering to detect inter-chromosomal translocations in cancer Hi-C data up to 1kb resolution. 
 (co-developer Hao Jiang)
